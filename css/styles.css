@@ -67,10 +67,12 @@ h1, h2{
 
 h1{
   font-weight: 600;
+  padding-bottom: 0.2em;
 }
 
 h2{ 
   font-weight: 200;
+  padding-bottom: 0.6em;
 }
 .portadas{
   width: 39vw;
