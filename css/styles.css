@@ -1,0 +1,114 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  color: #fff;
+  font-family: "Work Sans", sans-serif;
+}
+body{
+  background-color: #000000;
+}
+
+#projects {
+    cursor: none; 
+  }
+  
+.custom-cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    font-size: 16px;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 90px;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    z-index: 1000;
+    display: block;
+    background-color: #000000;
+    /* mix-blend-mode: difference;  */
+    border: 2px solid white;
+    background: transparent;
+
+  }
+
+#container{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+#menu{
+  width: 20vw;
+  position: sticky;
+  top: 0;
+  align-self: flex-start;
+}
+
+#menu div{
+  padding: 2em;
+}
+
+#menu ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+#menu a{
+  text-decoration: none;
+}
+
+
+h1, h2{
+  font-family: "Unbounded", sans-serif;
+}
+
+h1{
+  font-weight: 600;
+}
+
+h2{ 
+  font-weight: 200;
+}
+.portadas{
+  width: 39vw;
+  height: 80vh;
+  border-radius: 16px;
+  background-position: center;
+  background-size: cover;
+  transition-duration: 0.3s;
+}
+.portadas:hover{
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.4);
+}
+
+#microespacios-img{
+  background-image: url(../media/img/microespacios-box.jpg);
+}
+
+#local-img{
+  background-image: url(../media/img/local-revista.jpg);
+
+}
+
+#estampados-img{
+  background-image: url(../media/img/peces.png);
+}
+#rayban-img{
+  background-image: url(../media/img/rayban.jpg);
+}
+
+#arboles-img{
+  background-image: url(../media/img/arboles.jpg);
+}
+#projects{
+  display: flex;
+  flex-direction: row;
+  padding-top: 2em;
+  margin-right: 1em;
+  gap: 1em;
+  flex-wrap: wrap;
+  width: 80vw;
+}
