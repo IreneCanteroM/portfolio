@@ -55,9 +55,15 @@ body{
   list-style: none;
   padding-left: 0;
 }
-
+#menu ul li a:hover{
+color: goldenrod;
+}
 #menu a{
   text-decoration: none;
+  transition-duration: 0.3s;
+}
+.menu-down{
+line-height: 3em;
 }
 
 
@@ -113,4 +119,12 @@ h2{
   gap: 1em;
   flex-wrap: wrap;
   width: 80vw;
+}
+ 
+footer h6{
+  font-weight: 400;
+  text-align: center;
+  padding: 2em;
+  font-size: 1em;
+  margin-left: 20vw;
 }
