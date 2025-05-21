@@ -24,3 +24,12 @@
       cursor.style.display = 'none';
     });
   });
+
+  document.addEventListener('DOMContentLoaded', () => {
+  const grid = document.querySelector('.gallery');
+  new Masonry(grid, {
+    itemSelector: 'img',
+    columnWidth: 'img',
+    gutter: 10
+  });
+});

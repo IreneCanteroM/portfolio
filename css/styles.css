@@ -6,12 +6,16 @@
   color: #fff;
   font-family: "Work Sans", sans-serif;
 }
+
+:root{
+  --coral: #db7550;
+}
 main, footer{
   background-color: #000000;
 }
 
 body{
-  background-image: url(../media/img/peces-bg.jpg);
+  background-color: #f5e9dc;
   background-position:bottom;
   background-size: cover;
   top: -60vh;
@@ -66,7 +70,7 @@ body{
   padding-left: 0;
 }
 #menu ul li a:hover{
-color: goldenrod;
+color: var(--coral);
 }
 #menu a{
   text-decoration: none;
@@ -82,7 +86,7 @@ h1, h2, h1 a, h2 a {
 }
 
 h1{
-  font-weight: 600;
+  font-weight: 600 !important;
   padding-bottom: 0.2em;
 }
 
@@ -141,10 +145,46 @@ footer h6{
 
 /* sobre mi */
 .actual-pg{
-  color: goldenrod;
+  color:var(--coral);
 }
 
 h1 a:hover {
-  color: goldenrod;
+  color: var(--coral);
   transition-duration: 0.3s;
+}
+
+/* galeria */
+.gallery-container{
+  display: flex;
+  width: 80vw;
+  justify-content: center;
+  flex-direction: column;
+}
+.center{
+  text-align: center;
+}
+.title{
+  margin: 1em;
+}
+
+a{
+  color: rgb(255, 255, 255);
+}
+
+h1, h2{
+  font-size: 1.5em;
+}
+
+.img-gallery{
+  max-width: 100%;
+  margin-bottom: 0.5em;
+    /* outline-offset: -10px;
+  outline: 2px solid #fff; */
+}
+
+.gallery{
+  columns: 3 320px;
+  column-gap: 0.5em;
+  margin-right: 1em;
+
 }
